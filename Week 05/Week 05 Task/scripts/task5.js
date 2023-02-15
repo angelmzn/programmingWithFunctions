@@ -3,16 +3,28 @@
 /* IF/ELSE IF */
 
 // Step 1: Declare and initialize a new variable to hold the current date
+let date = new Date();
 
 // Step 2: Declare another variable to hold the day of the week
+let dayOfWeek;
 
 // Step 3: Using the variable declared in Step 1, assign the value of the variable declared in Step 2 to the day of the week ( hint: getDay() )
+dayOfWeek = date.getDay();
+
 
 // Step 4: Declare a variable to hold a message that will be displayed
 
+let message;
+
 // Step 5: Using an if statement, if the day of the week is a weekday (i.e. Monday - Friday), set the message variable to the string 'Hang in there!'
 
+if (dayOfWeek < 6 ) {
+    message = "Hang in there"
 // Step 6: Using an else statement, set the message variable to 'Woohoo!  It is the weekend!'
+} else {
+    message = "Woohoo! It is the weekend!"
+};
+
 
 /* SWITCH, CASE, BREAK */
 

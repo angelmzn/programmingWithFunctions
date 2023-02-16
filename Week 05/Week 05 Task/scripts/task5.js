@@ -83,7 +83,7 @@ function output(temples) {
 
   templeList = temples;
   let div = document.querySelector("#temples");
-  temples.ForEach(temple => {
+  temples.forEach(temple => {
     // - Creates an HTML <article> element
     let article = document.createElement('article');
     // - Creates an HTML <h3> element and add the temple's templeName property to it
@@ -94,7 +94,7 @@ function output(temples) {
     h4One.innerHTML = temple.location;
     // - Creates an HTML <h4> element and add the temple's dedicated property to it
     let h4Two = document.createElement('h4');
-    h4Second.innerHTML = temple.dedicated;
+    h4Two.innerHTML = temple.dedicated;
     // - Creates an HTML <img> element and add the temple's imageUrl property to the src attribute and the temple's templeName property to the alt attribute
     let image = document.createElement('img');
     image.setAttribute('src', temple.imageUrl);
@@ -113,6 +113,8 @@ async function getTemples() {
   // Step 4: In the function, using the built-in fetch method, call this absolute URL: 'https://byui-cse.github.io/cse121b-course/week05/temples.json'. Create a variable to hold the response from your fetch. You should have the program wait on this line until it finishes.
   let response = await fetch('https://byui-cse.github.io/cse121b-course/week05/temples.json');
   // Step 5: Convert your fetch response into a Javascript object ( hint: .json() ). Store this in the templeList variable you declared earlier (Step 1). Make sure the the execution of the code waits here as well until it finishes.
+
+  console.log(response)
   let templeArray = await response.json();
   output(templeArray);
 }

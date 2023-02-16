@@ -31,61 +31,9 @@ if (dayOfWeek < 6 ) {
 
 let message2;
 
-let message2;
 
 
 // Step 2: Use switch, case and break to set the message variable to the day of the week as a string (e.g. Sunday, Monday, etc.) using the day of week variable declared in Step 2 above
-
-let day;
-
-switch (dayOfWeek) {
-    case 0:
-      day = "Sunday";
-      break;
-    case 1:
-      day = "Monday";
-      break;
-    case 2:
-       day = "Tuesday";
-      break;
-    case 3:
-      day = "Wednesday";
-      break;
-    case 4:
-      day = "Thursday";
-      break;
-    case 5:
-      day = "Friday";
-      break;
-    case 6:
-      day = "Saturday";
-  }
-
-
-let day;
-
-switch (dayOfWeek) {
-    case 0:
-      day = "Sunday";
-      break;
-    case 1:
-      day = "Monday";
-      break;
-    case 2:
-       day = "Tuesday";
-      break;
-    case 3:
-      day = "Wednesday";
-      break;
-    case 4:
-      day = "Thursday";
-      break;
-    case 5:
-      day = "Friday";
-      break;
-    case 6:
-      day = "Saturday";
-  }
 
 
 let day;

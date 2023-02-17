@@ -1,0 +1,9 @@
+What does our project do?
+
+We want to create a small website that allows us to enter the name of a pokemon and returns that pokemon's information, picture, description, stats, etc. 
+
+Steps:
+
+step 1: Declare a function to  fetch the information we need from the API, returns it and assign it to a variable.
+step 2: Declare another function that will create the elements required to view the result, an h3, img, div, p, etc. 
+step 3: Assign each element to display their respective content. 

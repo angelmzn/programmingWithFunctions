@@ -1,0 +1,40 @@
+body, #container{
+    margin: 0 auto;
+    max-width: 1600px;
+    margin-top: -21px;
+    background-color: rgb(241, 252, 248);
+}
+
+header {
+    background-color: rgb(170, 6, 6);
+    color: white;
+    min-height: 200px;
+    width: 100%;
+    margin-top: 0;
+}
+
+header h1{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 70px;
+}
+
+main {
+    text-align: center;
+    min-height: 400px;
+    margin-top: 50px;
+}
+
+footer {
+    min-height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p {
+    vertical-align: middle;
+}

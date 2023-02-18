@@ -1,7 +1,7 @@
 body, #container{
     margin: 0 auto;
     max-width: 1600px;
-    margin-top: -21px;
+    background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000");
     background-color: rgb(241, 252, 248);
 }
 
@@ -10,13 +10,12 @@ header {
     color: white;
     min-height: 200px;
     width: 100%;
-    margin-top: 0;
+
 }
 
 header h1{
     text-align: center;
     vertical-align: middle;
-    padding-top: 70px;
 }
 
 main {
@@ -28,7 +27,6 @@ main {
 footer {
     min-height: 100px;
     background-color: aquamarine;
-    position: absolute;
     bottom: 0;
     width: 100%;
     margin-top: 100px;
@@ -37,4 +35,24 @@ footer {
 
 footer p {
     vertical-align: middle;
+}
+
+.pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 50px;
+}
+
+.pokemon-block {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(122, 108, 108);
+}
+
+#logo {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
 }

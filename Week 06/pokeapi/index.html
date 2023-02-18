@@ -12,14 +12,21 @@
 <body> 
     <div id="container">
         <header>
+            <img id ="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon logo">
             <h1>Pokemon Search Tool</h1>
         </header>
         <main>
-            <input type="text" id="input" name="input">
-            <button>Search</button>
-            <div id="pokemonResult">
+            <form id="form">
+                <input type="text" id="search" class="search" placeholder="Search your Pokemon">
+            </form>
+            <div class="pokemon-container">
                 
             </div>
+            <!--
+                <div id="spinner" class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            -->
         </main>
         <footer>
             <p>Hola</p>
